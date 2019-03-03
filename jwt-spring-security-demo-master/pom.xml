@@ -11,26 +11,6 @@
     <name>jwt-spring-security-demo</name>
     <description>Demo project for JWT with Spring Boot and Spring Security</description>
 
-    <licenses>
-        <license>
-            <name>MIT license</name>
-            <url>https://raw.githubusercontent.com/szerhusenBC/jwt-spring-security-demo/master/LICENSE</url>
-        </license>
-    </licenses>
-
-    <developers>
-        <developer>
-            <name>Stephan Zerhusen</name>
-            <email>stephan.zerhusen@gmail.com</email>
-        </developer>
-    </developers>
-
-    <scm>
-        <connection>scm:git:git://github.com/szerhusenBC/jwt-spring-security-demo.git</connection>
-        <url>https://github.com/szerhusenBC/jwt-spring-security-demo</url>
-        <developerConnection>scm:git:git@github.com/szerhusenBC/jwt-spring-security-demo.git</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -56,7 +36,6 @@
         <dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
-            <version>2.3.0</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -69,12 +48,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
         </dependency>
 
         <dependency>
@@ -98,6 +71,19 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>commons-dbcp</groupId>
+            <artifactId>commons-dbcp</artifactId>
+            <version>1.4</version>
+        </dependency>
+        
+        <!-- ojdbc7.jar example-->
+        <dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc7</artifactId>
+            <version>12.1.0</version>
         </dependency>
     </dependencies>
 
