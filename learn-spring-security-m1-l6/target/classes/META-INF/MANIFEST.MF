@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: learn-spring-security
+Implementation-Version: 0.1.0-SNAPSHOT
+Built-By: kingshuksmacbookpro
+Implementation-Vendor-Id: com.baeldung.m1
+Build-Jdk: 1.8.0_152
+Implementation-URL: http://projects.spring.io/spring-boot/learn-spring
+ -security-m1-l6/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
