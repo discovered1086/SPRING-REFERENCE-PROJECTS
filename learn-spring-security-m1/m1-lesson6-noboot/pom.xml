@@ -253,7 +253,7 @@ Module  1 - Lesson 6 no-Boot</description>
 		<!-- non-dependencies -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<org.springframework-version>4.3.9.RELEASE</org.springframework-version>
+		<org.springframework-version>5.2.20.RELEASE</org.springframework-version>
 		<spring-security.version>4.2.3.RELEASE</spring-security.version>
 
 		<!-- web -->
